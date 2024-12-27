@@ -1,0 +1,46 @@
+:root{
+    --main-color: #bd163d;
+}
+
+.menu_list_items{
+    position: relative;
+}
+
+.show_category{
+    width: 100%;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    opacity: 0;
+    background-color: white;
+    visibility: hidden;
+}
+
+.menu_list-link:hover{
+    color: var(--main-color);
+    background-color: white;
+}
+
+.menu_list-link:hover i{
+    color: var(--main-color);
+}
+
+.show_category_list-link{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.8);
+    color: rgba(146, 146, 146, 0.8);
+}
+
+.show_category_list-link:hover{
+    color: black;
+}
+
+    
+.menu_list_items:hover .show_category{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.1s ease-in;
+}

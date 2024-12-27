@@ -1,0 +1,36 @@
+:root{
+    --main-color-: #bd163d;
+}
+
+.category_name{
+    background-color: var(--main-color-);
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 15px 0px;
+}
+
+.category_name > p, .show_all_product-link{
+    color: white;
+    font-weight: bold;
+}
+
+.show_all_product{
+    background-color: var(--main-color-);
+    display: flex;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.show_all_product-link{
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.show_all_product:hover{
+    background-color: #971231;
+}

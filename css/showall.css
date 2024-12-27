@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.show_all{
+    width: 1200px;
+    margin: auto;
+    /* position: relative; */
+}
+
+.col_4_showall{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.filter{
+    /* top: 0; */
+    display: flex;
+}
+
+.box_filter{
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+}
+
+.box_filter > select{
+    font-size: 16px;
+}
+
+.box_filter > i{
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.grid_showall{
+    /* position: absolute; */
+    /* margin-top: 30px; */
+    z-index: 0;
+}
